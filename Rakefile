@@ -24,4 +24,5 @@ namespace :db do
   desc 'seed the database with dome dummy data'
   task :seed do
     require_relative './db/seed.rb'
+  end
 end
